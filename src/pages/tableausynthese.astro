@@ -1,0 +1,18 @@
+---
+
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout>
+    <div>
+   
+        <!-- Utilisez l'élément iframe pour intégrer votre CV PDF -->
+        <iframe src="../public/assets/Tableau_de_synthèse_E4.pdf" width="100%" height="600px"></iframe>
+
+        <!-- Ajoutez un bouton de téléchargement -->
+        <a href="../public/assets/Tableau_de_synthèse_E4.pdf" download="../public/assets/CV_Alternance_Alhousseyni_Ndiaye.pdf">
+            <button>Télécharger le CV</button>
+        </a>
+    </div>
+
+</BaseLayout>
